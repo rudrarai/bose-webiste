@@ -1,0 +1,537 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:1000vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflowY: scroll;
+}
+.navbar{
+    display: flex;
+    height: 1.5%;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+}
+.navbarChild1{
+    width: 50%;
+    margin: 2%;
+
+}
+.navbarChild2{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.navbarChild2right{
+    width: 60%;
+   
+
+}
+.navbarChild2left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.navbarChild2left button{
+    border: none;
+    background-color: rgb(52, 56, 60);
+    color: rgb(254, 253, 253);
+    border-radius: 20px;
+    width: 80%;
+    height: 30%;
+
+}
+.navbarChild2right ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.navbarChild2right ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbarChild2right ul li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ================================================= */
+
+.LandingPagetopSection{
+    background-image: url("./Rectangle\ 2.png");
+    object-fit: contain;
+    background-repeat:round;
+    height: 8.5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1000;
+}
+.LandingPagetopSection .img1{
+    overflow: hidden;
+    margin-top: 15%;
+    height: 100%;
+    width: 50%;
+}
+.LandingPagetopSectionHeadin{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 1px 1px 8px white;
+
+}
+.LandingPagetopSectionHeadin button{
+    height: 8%;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 10px white;
+
+   
+}
+.img3{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items:flex-end;
+}
+.img3 img{
+    height: 80%;
+    width: 50%;
+}
+
+/* ================================================= */
+
+.LandingPagebottomSection{
+    height: 8.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    align-items: center;
+}
+.LandingPagebottomSectionInside{
+    height: 80%;
+    
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.LandingPagebottomSectionInsideRight{
+    height: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+}
+.colorSection{
+    width: 80%;
+    height: 50%;
+}
+.colorSection p{
+    font-size: 0.65rem;
+}
+.clrImg {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.clr{
+    
+    border-radius: 50px;
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.clr:hover{
+    cursor: pointer;
+    outline: 2px solid rgb(64, 64, 229);
+    border-radius: 50px;
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.colorCircle1{
+    background-color: silver;
+}
+.colorCircle2{
+    background-color: rgb(225, 166, 139);
+}
+.colorCircle3{
+    background-color: grey;
+}
+.colorCircle4{
+    background-color: rgb(222, 122, 122);
+}
+.colorCircle5{
+    background-color: pink;
+}
+.price{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price button{
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 40px;
+    font-size:1.3rem ;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.FeaturedProduct{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+}
+.heading3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+    font-weight: bolder;
+
+}
+.FeaturedProductimg{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.FeaturedProductimg img{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    cursor: pointer;
+
+    
+}
+.FeaturedProductimg img:hover{
+
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+#arrow{
+    height: 40%;
+    align-self: center;
+}
+#arrow{
+    width: 2%;
+    height: 30%;
+    align-self: center;
+}
+#arrow:hover{
+    border: none;
+    height: 30%;
+    align-self: center;
+}
+
+
+
+
+.LearnMore{
+    background-image: url("./Rectangle\ 15.png");
+    background-size: cover;
+    width: 100%;
+    height: 6.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content img{
+    height: 80%;
+    width: 40%;
+}
+.header5{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px grey;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#lm{
+    cursor: pointer;
+    border: none;
+    height: 20%;
+    width: 40%;
+    border-radius: 10vw;
+    box-shadow: 1px 1px 3px rgb(14, 13, 13);
+
+
+}
+.PremiumDesignTop{
+    margin-top: px;
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PremiumDesignTop h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.PremiumDesignTop p{
+    width: 36%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: small;
+}
+.PremiumDesignBottom{
+    background-color: black;
+    height: 80vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boseimage{
+    width: 35%;
+}
+.discription{
+    margin-top: 490px;
+    margin-left: -300px;
+    height: 22vh;
+}
+.bosepara{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: -144px;
+    margin-top: 509px;
+}
+.PremiumDesignBottomright{
+    width: 250px;
+    height: 7vh;
+    margin-top: -180px;
+    margin-left: -100px;
+    border-radius: 10px;
+    background-color: white;
+}
+.batterylife{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex; 
+    justify-content: space-around;
+}
+.batterylifeleft{
+    
+    /* border: 2px solid red;  */
+   width: 25%;
+   margin-top: 5vh;
+   color: white;
+}
+.batterylifeleft h1{
+    font-size: 45px;
+}
+.batteryliferight{
+     margin-top: 5vh;
+    /* border: 2px solid red;  */
+   width: 30%;
+  
+}
+.batteryliferight img{
+    width: 100%;
+    height: 100%;
+}
+.relatedcontainer{
+    background-color: black;
+    /* border: 2px solid red;  */
+    width: 99%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.relatedcontainer button{
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.relatedProduct{
+    /* border: 2px solid rgb(232, 3, 3); */
+    width: 99%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.relatedProductone{
+    margin: 10px;
+    /* border: 2px solid rgb(232, 11, 11); */
+    width: 25%;
+}
+.relatedProductone img{
+    width: 100%;
+    height: 100%;
+}
+.introducingLogo{
+     background-color: black;
+    text-align: center;
+   
+    line-height: 40px;
+    height: 50vh;
+    width: 99%;
+}
+.introducingLogo h4{
+    font-size: 20px;
+    color: white;
+}
+.introducingLogo button{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+}
+.socialMedia{
+    background-color: #1e1e1e;
+     /* border: 2px solid red; */
+     height: 15vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialMedialeft{
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.socialMediaright{
+    /* border: 2px solid red; */
+    width: 30%;
+}
+.footer{
+    background-color: black;
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerleft{
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 25%;
+    display: flex;
+   
+    justify-content: center;
+}
+.footerleft h3{
+    line-height: 40px;
+    color: white;
+    width:70%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footermidle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+   line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 25%;
+}
+.footermidle p{
+    
+}
+.footerright{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 25%;
+    color: white;
+}
+.bottomlogo{
+    /* border: 2px solid red; */
+    height: 20vh;
+}
+.bottomlogo img{
+    width: 100%;
+    height: 100%;
+}
